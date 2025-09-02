@@ -277,7 +277,6 @@
       inverted: true
       departments:
         - Security
-        - Command
 
 - type: loadout
   id: LoadoutUniformJumpsuitHawaiBlue
@@ -293,7 +292,6 @@
       inverted: true
       departments:
         - Security
-        - Command
 
 - type: loadout
   id: LoadoutUniformJumpsuitHawaiRed
@@ -324,7 +322,6 @@
       inverted: true
       departments:
         - Security
-        - Command
 
 # AutoDrobe clothes
 - type: loadout
@@ -918,10 +915,6 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutUniformsCivilian
-    - !type:CharacterDepartmentRequirement
-      inverted: true
-      departments:
-        - Command
 
 - type: loadout
   id: LoadoutClothingJumpsuitSuitBlackAlt
@@ -933,10 +926,6 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutUniformsCivilian
-    - !type:CharacterDepartmentRequirement
-      inverted: true
-      departments:
-        - Command
 
 - type: loadout
   id: LoadoutClothingJumpsuitSuitBlackMob
@@ -948,10 +937,6 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutUniformsCivilian
-    - !type:CharacterDepartmentRequirement
-      inverted: true
-      departments:
-        - Command
 
 - type: loadout
   id: LoadoutClothingJumpsuitSuitBrown
@@ -963,11 +948,6 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutUniformsCivilian
-    - !type:CharacterDepartmentRequirement
-      inverted: true
-      departments:
-        - Command
-        - Security
 
 - type: loadout
   id: LoadoutClothingJumpsuitSuitBrownAlt
@@ -979,10 +959,6 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutUniformsCivilian
-    - !type:CharacterDepartmentRequirement
-      inverted: true
-      departments:
-        - Command
 
 - type: loadout
   id: LoadoutClothingJumpsuitSuitBrownMob
@@ -994,10 +970,6 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutUniformsCivilian
-    - !type:CharacterDepartmentRequirement
-      inverted: true
-      departments:
-        - Command
 
 - type: loadout
   id: LoadoutClothingJumpsuitSuitWhite
@@ -1010,11 +982,6 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutUniformsCivilian
-    - !type:CharacterDepartmentRequirement
-      inverted: true
-      departments:
-        - Command
-        - Security
 
 - type: loadout
   id: LoadoutClothingJumpsuitSuitWhiteAlt
@@ -1027,10 +994,6 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutUniformsCivilian
-    - !type:CharacterDepartmentRequirement
-      inverted: true
-      departments:
-        - Command
 
 - type: loadout
   id: LoadoutClothingJumpsuitSuitWhiteMob
@@ -1043,7 +1006,3 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutUniformsCivilian
-    - !type:CharacterDepartmentRequirement
-      inverted: true
-      departments:
-        - Command
